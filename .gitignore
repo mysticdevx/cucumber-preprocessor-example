@@ -1,0 +1,9 @@
+.idea/
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+packages/my-test-fw/cypress/videos/
+packages/my-test-fw/cypress/screenshots/

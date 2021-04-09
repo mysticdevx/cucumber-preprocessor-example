@@ -1,0 +1,18 @@
+{
+  "name": "my-test-fw",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test:tag": "cypress-tags run -e TAGS='@wip'",
+    "test": "cypress run --spec \"**/*.feature\""
+  },
+  "private": true,
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "any-",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
